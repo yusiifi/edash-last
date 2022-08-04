@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.j-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.my-5{
+    margin-top: 5rem ;
+    margin-bottom: 5rem;
+}
+
+.list-unstyled{
+    list-style: none;
+}
+.img-fluid{
+    width:100%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 25px 0#808292;
+}
+
+
+ header .h-right .menu ul li a{
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+    color: #808292;
+    font-weight: 500;
+
+}
+
+.h-right .signup-btn{
+    border: ;
+    border-style: solid;
+    color: white;
+}
+
+.h-right .signup-btn a{
+    text-decoration: none;
+    background-color: #ec272e;
+    padding: 12px 20px;
+    color: white;
+}
+
+header .search input{
+    padding: 10px;
+    border: none;
+    background-color: #eee ;
+    outline: none;
+    
+}
+header .search{
+    position: relative;
+    margin-left: 20px;
+}
+header .search i{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: #08a9e6;
+}
+.start-learning{
+    background-color: #eee;
+    padding: 8rem 0;
+}
+.start-learning .left-part{
+    
+    width: 50%;
+}
+.start-learning .right-part{
+    padding: 5rem 2rem;
+    width: 50%;
+}
+.start-learning .left-part .photo-part .photos{
+    width: 30%;
+}
+.start-learning .left-part .photo-part .text-part{
+    width: 50%;
+    color: #808292;
+}
+.start-learning .left-part .photo-part .photos img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.start-learning .left-part .photo-part .photos img:nth-child(2),
+.start-learning .left-part .photo-part .photos img:nth-child(3)
+{
+    margin-left: -15px;
+    
+}
+.start-learning .left-part p{
+    margin: 20px 0px;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: #3b3c71;
+}
+.start-learning .left-part h1{
+    font-size: 45px;
+    color: #21225f;
+    
+
+}
+.start-learning .left-part .search-bar{
+    display: flex;
+    margin-bottom: 20px;
+}
+.start-learning .left-part .search-bar input{
+    width: 70%;
+    padding: 18px 15px;
+
+}
+.start-learning .left-part .search-bar button{
+    width: 30%;
+    padding: 18px 25px;
+    background-color: #08a9e6;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+.start-learning .left-part .search-bar button i{
+    margin-right: 7px;
+}
+.start-learning .left-part .photo-part{
+    display: flex;
+    
+}
+.start-learning .left-part .discover{
+    margin-top: 25px;
+}
+.start-learning .right-part .left-photo,
+.start-learning .right-part .right-photos
+{
+    width:50%;
+}
+.start-learning .right-part .right-photos img:nth-child(1){
+    border-top-left-radius: 130px;
+    
+}
+.start-learning .right-part .right-photos img:nth-child(2){
+    border-top-right-radius: 130px;
+    margin: 20px 0;
+    
+}
+.start-learning .right-part .left-photo{
+    margin-right: 15px;
+}
+.start-learning .right-part .left-photo img{
+    border-bottom-left-radius: 130px;
+    
+}
+.clip-part .clip-text{
+    display: flex;
+    flex-direction: row;
+}
+.clip-part{
+    
+    padding: 0px 300px;
+    background-position: -130px center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 80px;
+    padding-bottom: 55px;
+    background-color: #08a9e6;
+    clip-path: polygon(0 0,84% 0,77% 100%,0% 100%);
+}
+.clip-part .clip-text{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.clip-part .clip-text .courses-text{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    color: #fff;
+}
+.clip-part .clip-text .courses-text h1{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 28px;
+}
+.explore {
+    display: flex;
+    flex-direction: row;
+    margin-top: 95px;
+    margin-left: 15px;
+}
+.explore .explore-text{
+    width: 70%;
+    margin-left: 35px;
+}
+.explore .explore-text h1{
+    font-size: 38px;
+    color: #21225f;
+}
+.explore .explore-text p{
+    margin-top: 12px;
+    color: #808292;
+    line-height: 1.8;
+    
+}
+.explore .explore-button button{
+    margin-right: 95px;
+    
+    right: 0;
+    top: 6;
+    border: 1px solid #08a9e6;
+    background-color: #fff;
+    color: #21225f;
+    padding: 10px 20px;
+    font-weight: 500;
+
+}
+.explore .explore-button a{
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+.phototext-part{
+    margin-top: 60px;
+    
+    
+    
+    
+}
+
+
+.phototext-part .sections .section-image img{
+    width: 20%;
+}
+.phototext-part .sections .time-anddate{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+}
+.phototext-part .sections .time-anddate .timeee{
+    display: flex;
+    flex-direction: row; 
+}
+.phototext-part .sections .time-anddate .right-stu{
+    display: flex;
+    flex-direction: row; 
+}
+.phototext-part .sections .next-ses{
+    width: 20%;
+}
+.phototext-part .sections .next-ses h3{
+    color: #21225f;
+    margin-bottom: 5px;
+    line-height: 1.4;
+    font-size: 22px;
+    font-weight: 600;
+}
+.phototext-part .sections .next-ses p{
+    color: #808292;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.phototext-part .sections .next-ses span{
+    font-size: 22px;
+    line-height: 1;
+
+}
